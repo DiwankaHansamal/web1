@@ -1,0 +1,780 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.banner-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.nav-links a:hover {
+    color: aquamarine;
+}
+
+
+
+.intro {
+    display: flex;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+.intro-content {
+    flex: 1;
+    padding-right: 20px; 
+    box-sizing: border-box; 
+    text-align: justify;
+}
+
+.intro h2 {
+    font-size: 36px;
+    color: aquamarine;
+    text-align: left; 
+    text-decoration: underline;
+}
+
+.intro p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify; 
+}
+
+
+.intro-images {
+    flex: 1;
+    display: flex;
+    flex-direction: row; 
+    align-items: right; 
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.intro-images img:hover {
+    opacity: 0.7; 
+    transform: scale(1.1); 
+}
+
+.luxury-rooms {
+    background-color: #FFF5EE; 
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.luxury-rooms h2{
+
+    font-size: 36px;
+    text-decoration: underline;
+    color: pink;
+}
+
+.luxury-rooms ol{
+
+    font-size: 18px;
+}
+
+.luxury-rooms img{
+
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.luxury-rooms img:hover {
+    opacity: 0.7; 
+    transform: scale(1.1); 
+}
+
+.luxury-rooms p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.adventure-activities {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px; 
+    background-color:azure;
+}
+
+.adventure-activities-content {
+    flex: 1;
+    padding-left: 20px; 
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.adventure-activities-content p {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.adventure-activities-content h2{
+
+    font-size: 36px;
+    color: rgb(8, 0, 255);
+    text-decoration: underline;
+}
+
+.adventure-activities-images {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    margin-right: 150px; 
+}
+
+.adventure-activities-images img:hover {
+    opacity: 0.7; 
+    transform: scale(1.1); 
+}
+
+.fine-dining {
+    background: url("/Assets/Images/finedining.webp") center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fine-dining-content {
+    background: linear-gradient(rgba(255, 255, 153, 0.6), rgba(173, 216, 230, 0.6)); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%; 
+    color: #333; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.fine-dining-content h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #800000;
+    text-decoration: underline;
+}
+
+.fine-dining-content h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #800000;
+}
+
+.fine-dining-content p {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #800000;
+}
+
+/* Branches page */
+
+.branch {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: antiquewhite;
+}
+
+.branch h2 {
+    color: #800000;
+}
+
+.branch-info {
+    display: flex;
+    align-items: center;
+}
+
+
+.branch-details {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.branch-details p {
+
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+.summary {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+}
+
+.summary h2 {
+    color: #800000;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+
+/* resturant page  */ 
+
+.restaurants {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFC0CB;
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+
+.restaurant {
+    width: 30%; 
+    background-color: #FFEBD9; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.restaurant h2 {
+    text-decoration: underline;
+    color: #800000;
+}
+
+.restaurant p {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.restaurant img {
+    width: 100%; 
+    height: auto; 
+}
+
+.restaurant img:hover {
+    opacity: 0.7; 
+}
+
+.restaurant button {
+    border-radius: 30%;
+    width: auto;
+    height: 50px;
+    color: #00FF00;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    border: 1;
+    border-color: #00FF00;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.restaurant button:hover {
+    background-color: #00FF00;
+    color: white; 
+}
+
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #800000;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.events {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #FFC0CB;
+}
+
+.event {
+    flex: 1;
+    padding-right: 20px;
+    box-sizing:content-box;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #FFEBD9;
+}
+
+.event h2 {
+    font-size: 24px;
+    color: #800000;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.event p {
+    font-size: 18px;
+    color:#333;
+    font-weight: bold;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.event-image {
+    flex: 1;
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.event-image img:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.event button {
+    border-radius: 30px;
+    width: auto;
+    height: 50px;
+    color: #00FF00;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #00FF00;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 10px;
+}
+
+.event button:hover {
+    background-color: #00FF00;
+    color: white;
+}
+
+/* Adventure */
+
+.profile-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.profile {
+    text-align: center;
+    background-color: aqua;
+}
+
+.profile h3{
+
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.profile p {
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+}
+
+.profile img:hover {
+    opacity: 0.7; 
+    transform: scale(1.1); 
+    margin-top: 20px;
+}
+
+.map-container {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Booking page  */
+
+.booking-section {
+    background: url("/Assets/Images/bookingbanner.jpeg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 50px; 
+    margin-top: 50px;
+}
+
+.booking-content {
+    background-color: rgba(173, 216, 230, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%; 
+    position: relative;
+}
+
+.booking-content h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.booking-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #00bfff;
+    border-radius: 10px;
+    background-color:#00bfff; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.booking-form input[type="text"],
+.booking-form input[type="date"],
+.booking-form input[type="number"],
+.booking-form select,
+.booking-form textarea {
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    width: 120px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+.booking-form input[type="date"]::before {
+    color: white;
+}
+
+
+.booking-form input[type="submit"] {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.booking-form input[type="submit"]:hover {
+    background-color: #00bfff; 
+    color: white; 
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        left: 0;
+        background-color: #333;
+        width: 100%;
+    }
+    
+    .nav-links li {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .navbar .menu-icon {
+        display: block; 
+        cursor: pointer;
+        padding: 10px;
+        font-size: 24px;
+        user-select: none;
+        color: white;
+    }
+    
+    .navbar #menu-toggle {
+        display: none; 
+    }
+    
+    
+    .navbar .menu-icon::before {
+        content: "\2630";
+        display: none; 
+    }
+    
+    
+    #menu-toggle:checked + .menu-icon::before {
+        transform: rotate(90deg);
+        transition: transform 0.3s ease;
+        
+    }
+    
+    
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+        
+    }
+    .banner-section {
+        margin-bottom: 0;
+    }
+
+    .banner-section img {
+        height: auto;
+    }
+
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .intro-content {
+        padding-right: 0;
+    }
+
+    .intro-images {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .luxury-rooms img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .adventure-activities {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .adventure-activities-images {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .fine-dining {
+        background: url("/Assets/Images/finedining.webp") center center;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .fine-dining-content {
+        background: linear-gradient(rgba(255, 255, 153, 0.6), rgba(173, 216, 230, 0.6));
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 80%;
+        color: #333;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .branch {
+        margin: 10px;
+        padding: 10px;
+        background-color: antiquewhite;
+    }
+
+    .branch h2 {
+        font-size: 24px;
+    }
+
+    .branch-info {
+        flex-direction: column;
+    }
+
+    .branch-details {
+        padding-left: 0;
+    }
+
+    .branch-map iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .summary {
+        margin: 10px;
+        padding: 10px;
+        background-color: aliceblue;
+    }
+
+    .summary h2 {
+        font-size: 24px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    
+    th, td {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .profile-container {
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 10px; 
+    }
+
+    .profile {
+        font-size: 18px; 
+    }
+
+    .profile h3 {
+        font-size: 24px;
+    }
+
+    .profile p {
+        font-size: 16px; 
+    }
+
+    .profile img {
+        width: 100px; 
+        height: 100px;
+    }
+
+    .restaurants {
+        flex-direction: column; 
+
+    }
+
+    .restaurant {
+        width: 100%; 
+    }
+
+    .events {
+        flex-direction: column; 
+    }
+
+    .event {
+        width: 100%; 
+    }
+
+    .event-image {
+        flex: 1;
+        text-align: center; 
+        margin-top: 20px;
+    }
+
+    .event-image img {
+        max-width: 100%; 
+        height: auto;
+        display: block; 
+    }
+
+    .booking-section {
+        padding: 20px; 
+        margin-top: 20px; 
+    }
+
+    .booking-content {
+        padding: 10px; 
+    }
+
+    .booking-content h2 {
+        font-size: 24px; 
+    }
+
+    .booking-form {
+        padding: 10px; 
+    }
+
+    .booking-form input[type="text"],
+    .booking-form input[type="date"],
+    .booking-form input[type="number"],
+    .booking-form select,
+    .booking-form textarea {
+        width: 100%; 
+        margin-right: 0;
+        margin-bottom: 10px; 
+    }
+
+    .booking-form input[type="submit"] {
+        width: 100%; 
+        margin: 0; 
+    }
+
+ 
+
+}
+

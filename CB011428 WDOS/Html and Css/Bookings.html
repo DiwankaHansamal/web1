@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="Global.css">
+</head>
+<body>
+
+    <header>
+    <section class="banner-section">
+        <img src="/Assets/Images/banner1.png">
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Branches.html">Branches</a></li>
+                <li><a href="Adevnture.html">Adventures</a></li>
+                <li><a href="Restaurants.html">Restaurants</a></li>
+                <li><a href="Bookings.html">Bookings</a></li>
+            </ul>
+        </nav>
+   </section>
+   </header>
+
+   <section class="booking-section">
+        <div class="booking-content">
+            
+            <h2>Book Your Stay and Adventures</h2>
+            <div id="hotel-booking" class="booking-form">
+                <h3>Hotel Booking</h3>
+                <form>
+                    <label for="check-in">Check-in Date:</label>
+                    <input type="date" id="check-in" name="check_in" required>
+
+                    <label for="check-out">Check-out Date:</label>
+                    <input type="date" id="check-out" name="check_out" required>
+
+                    <label for="room-type">Room Type:</label>
+                    <select id="room-type" name="room_type">
+                        <option value="single">Single Room</option>
+                        <option value="double">Double Room</option>
+                        
+                    </select>
+
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" required>
+
+                    
+
+                    <input type="submit" value="Book Hotel">
+                </form>
+            </div>
+            <div id="adventure-booking" class="booking-form">
+                <h3>Adventure Booking</h3>
+                <form>
+                    <label for="adventure-type">Adventure Type:</label>
+                    <select id="adventure-type" name="adventure_type">
+                        <option value="hiking">Hiking</option>
+                        <option value="rafting">Rafting</option>
+                        
+                    </select>
+
+                    <label for="adventure-date">Adventure Date:</label>
+                    <input type="date" id="adventure-date" name="adventure_date" required>
+
+                   
+
+                    <input type="submit" value="Book Adventure">
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
